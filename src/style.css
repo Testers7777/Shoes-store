@@ -71,7 +71,7 @@ h4 {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(210%, -150%);
+    transform: translate(190%, -150%);
     font-weight: bolder;
     color: #FFA71C;
 }
@@ -89,14 +89,14 @@ h4 {
 }
 .size {
     margin-top: 35px;
-    margin-left: 10px;
+    margin-left: 5px;
     display: inline-block;
 }
 .numbsiz {
     position: absolute;
 }
 .numbsiz + .siz {
-    margin-left: 30px;
+    margin-left: 25px;
 }
 .buy {
     background-color: #FFA71C;
