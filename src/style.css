@@ -15,7 +15,7 @@ body  {
 }
 .color {
     display: inline-block;
-    margin-left: 95px;
+    margin-left: 110px;
     position: absolute;
     top: 193.3px;
 }
@@ -96,7 +96,7 @@ h4 {
     position: absolute;
 }
 .numbsiz + .siz {
-    margin-left: 25px;
+    margin-left: 30px;
 }
 .buy {
     background-color: #FFA71C;
