@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+      <div class="containimg">
+        <img src="https://www.youbadit.fr/uploads/media/produit/0001/06/bdc2f929505a7e8aeab2e1bf7efe1d5e850b6c2e.png" width="100px" height="100px" title="adidas shoes" />
+      </div>
+      <div class="section">
+        <h4>Adidas</h4>
+        <span class="price">$99.99</span>
+        <span class="desc">Chaussures de sports.</span>
+        <div class="size">
+          <label for="siz">Taille</label><br>
+          <input type="radio" class="siz" id="siz" onchange="updatedSiz(this)"> <span class="numbsiz">39</span>
+          <input type="radio" class="siz" id="siza" onchange="updatedSiz(this)"> <span class="numbsiz">40</span>
+          <input type="radio" class="siz" id="sizb" onchange="updatedSiz(this)"> <span class="numbsiz">41</span>
+        </div>
+        <div class="color">
+          <label for="colo">Couleur</label><br>
+          <input type="radio" class="colora" id="colo" onchange="updatedColor(this)">
+          <input type="radio" class="colora" id="coloa" onchange="updatedColor(this)">
+          <input type="radio" class="colora" id="colob" onchange="updatedColor(this)">
+        </div>
+        <button class="buy">Acheter</button>
+        <button class="cart">Ajouter au panier</button>
+      </div>
+    </div>
+  <script src="script.js"></script>
+</body>
+</html>
