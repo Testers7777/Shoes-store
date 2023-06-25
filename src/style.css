@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+body  {
+    background-color: #33E5FF;
+    font-family: 'Montserrat', sans-serif;
+}
+.container {
+    display: grid;
+    place-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 7px 7px;
+}
+.color {
+    display: inline-block;
+    margin-left: 95px;
+    position: absolute;
+    top: 193.3px;
+}
+.colora {
+    appearance: none;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    transition: 0.2s all linear;
+    margin-right: 5px;
+    position: relative;
+    top: 4px;
+}
+#coloa {
+    border: 1px solid #33FF33;
+}
+#colob {
+    border: 1px solid #3333FF;
+}
+#colo {
+    border: 1px solid #FF3333;
+}
+#coloa:checked {
+    border: 8.5px solid #5ECF00;
+}
+#colob:checked {
+    border: 8.5px solid #0094F3;
+}
+#colo:checked {
+    border: 8.5px solid #FF5924;
+}
+img {
+    transform: rotate(-30deg);
+}
+.containimg {
+    display: grid;
+    place-items: center;
+    background-color: #00BEFF;
+    height: 100px;
+    width: 350px;
+    border-radius: 7px;
+}
+.section {
+    background-color: white;
+    width: 350px;
+    height: 200px;
+    border-radius: 3px;
+}
+h4 {
+    margin-left: 10px;
+}
+.price {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(210%, -150%);
+    font-weight: bolder;
+    color: #FFA71C;
+}
+.desc {
+    margin-left: 10px;
+    color: #D8D6D3;
+    position:absolute;
+    top: 155px;
+}
+.siz {
+    border-radius: 50%;
+    width: 16.5px;
+    height: 16.5px;
+
+}
+.size {
+    margin-top: 35px;
+    margin-left: 10px;
+    display: inline-block;
+}
+.numbsiz {
+    position: absolute;
+}
+.numbsiz + .siz {
+    margin-left: 30px;
+}
+.buy {
+    background-color: #FFA71C;
+    color: white;
+    border-radius: 3px;
+    border: none;
+    height: 28px;
+    width: 75px;
+    display: block;
+    margin-top: 23px;
+    margin-left: 10px;
+}
+.cart {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(40%, 370%);
+    background-color: #4BAEFC;
+    color: white;
+    border-radius: 3px;
+    border: none;
+    height: 30px;
+    width: 120px;
+}
+.cart:hover, .buy:hover, input:hover {
+    cursor: pointer;
+}
